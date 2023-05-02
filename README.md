@@ -111,3 +111,4 @@ The NLTP deployment consists of the following containerized components that are 
 * Feb 28, 2023 (2023-2 release) - Minor changes, bugfixes - containers image version changes & updated 3rd party requirements in [deploy.sh](deploy.sh)
 * Mar 16, 2023 (2023-3 release) - Minor changes, bugfixes and updated instructions - please see updated instructions regarding [platform user roles and user management in Keycloak](instructions/Keycloak.md) and [API Keys](instructions/api-keys.md) notes.
 * Apr 26, 2023 (2023-4 release) - Please see [2023-4-release.md](instructions/upgrade/2023-4-release.md#changes) for release change details and upgrade instructions.
+* May 2, 2023 (2023-5 release) - Minor changes, bugfixes, please deploy the updated container image versions for `file-translation-service.yaml`, `frontend.yaml`, `keycloak.yaml` and `text-translation-service.yaml` files.

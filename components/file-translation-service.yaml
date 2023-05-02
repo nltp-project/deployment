@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: file-translation-service
-          image: nltpcontainers.azurecr.io/file-translation-service:47260
+          image: nltpcontainers.azurecr.io/file-translation-service:47439
           imagePullPolicy: "IfNotPresent"
           env:
             # RabbitMQ
