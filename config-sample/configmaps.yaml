@@ -23,6 +23,8 @@ data:
   ALLOW_CORS: "true"
   CORS_WHITELIST: "https://nltp.example.com" # TODO
   TM_BLACKLIST: "public"
+  MAX_UPLOAD_FILE_SIZE: "26214400" # 25 * 1024 * 1024 bytes
+  MAX_UPLOAD_TMX_FILE_SIZE: "26214400" # 25 * 1024 * 1024 bytes
 ---
 #frontend-cms.yaml configmap
 apiVersion: v1

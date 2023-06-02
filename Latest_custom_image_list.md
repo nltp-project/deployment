@@ -8,12 +8,12 @@
 | nltpcontainers.azurecr.io/matecat-filters:34010 |
 | nltpcontainers.azurecr.io/nectm:43943 |
 | nltpcontainers.azurecr.io/translation-memory-service:44857 |
-| nltpcontainers.azurecr.io/cat-tool-backend:45685 |
+| nltpcontainers.azurecr.io/cat-tool-backend:48000 |
 | nltpcontainers.azurecr.io/cat-tool-maintenance:43693 |
 | nltpcontainers.azurecr.io/nltp-docs:46163 |
 | nltpcontainers.azurecr.io/file-translation-service:47439 |
 | nltpcontainers.azurecr.io/file-translation-worker:45421 |
-| nltpcontainers.azurecr.io/nltp-website:47460 |
+| nltpcontainers.azurecr.io/nltp-website:48029 |
 | nltpcontainers.azurecr.io/strapi-cms:47120 |
 | nltpcontainers.azurecr.io/auth-keycloak-nltp:47451 |
 | nltpcontainers.azurecr.io/service-broker:45707 |

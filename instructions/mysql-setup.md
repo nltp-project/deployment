@@ -19,6 +19,7 @@ init-connect='SET NAMES utf8mb4'
 character-set-server = utf8mb4
 sql-mode = NO_ENGINE_SUBSTITUTION
 require_secure_transport = OFF
+default_authentication_plugin = mysql_native_password
 ```
 
 ## Set up MySQL users, databases and import data

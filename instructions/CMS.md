@@ -46,7 +46,7 @@ Fields:
 *title* - menu item title.
 
 *link* - link where the menu item should go. You can add relative ("/my-link") or absolute. Relative links in the menu library are treated as Angular routes (check 
-_externalLink_ property for exceptions). 
+_externalLink_ property for exceptions). **It is possible to use global placeholders in link field. Read more about [Global placeholders](#global-placeholders)**
 
 *customID* - this gives element a custom id. Field can be left empty.
 
@@ -226,7 +226,7 @@ Fields:
 
 *title* - link text.
 
-*link* - link value. It is possible to use relative links for routes in current application and absolute links for external URLs. Please, make sure to include protocol for external URLS (for example https://google.com, where HTTPS is protocol).
+*link* - link value. It is possible to use relative links for routes in current application and absolute links for external URLs. Please, make sure to include protocol for external URLS (for example https://google.com, where HTTPS is protocol). **It is possible to use global placeholders in link field. Read more about [Global placeholders](#global-placeholders)**
 
 *aria-label* - descriptive text for link which improves accessibility.
 
@@ -246,7 +246,7 @@ Fields:
 
 *color* - button color.
 
-*link* - item link - relation to [link](#link) component.
+*link* - item link - relation to [link](#link) component. **It is possible to use global placeholders in link field. Read more about [Global placeholders](#global-placeholders)**
 
 *plausibleEvent* - event for Plausible analytics, if it is used. You can leave this empty if Plausible is not used in app. Check [Plausible event](#plausible-event) for more details. 
 
@@ -329,5 +329,13 @@ Fields:
 *text* - HTML component for the section content. Check [html](#html) component for more info.
 
 *buttons* - list with link buttons. Check [link button](#link-button) for more info.
+
+## Global placeholders
+
+It is possible to use some predefined placeholders in some of cms types, so you can put some values from application into your cms content. All placeholders should be used in following format: `{{myPlaceholder}}`.
+
+At the moment, there is following placeholders:
+
+`{{language}}` - for displaying current language. This feature might be usefull for localizing some links that should be localized. 
 
 

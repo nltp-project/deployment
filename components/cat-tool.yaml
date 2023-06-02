@@ -34,6 +34,16 @@ spec:
     spec:
       containers:
       - env:
+        - name: MAX_UPLOAD_FILE_SIZE 
+          valueFrom:
+            configMapKeyRef:
+              name: cat-tool-config
+              key: MAX_UPLOAD_FILE_SIZE
+        - name: MAX_UPLOAD_TMX_FILE_SIZE  
+          valueFrom:
+            configMapKeyRef:
+              name: cat-tool-config
+              key: MAX_UPLOAD_TMX_FILE_SIZE 
         # enable or disable DEV mode - true/false
         - name: DEV_MODE
           valueFrom:
@@ -157,7 +167,7 @@ spec:
               name: cat-tool-config
               key: TM_BLACKLIST
         name: cat-tool
-        image: nltpcontainers.azurecr.io/cat-tool-backend:45685
+        image: nltpcontainers.azurecr.io/cat-tool-backend:48000
         imagePullPolicy: "IfNotPresent"
         volumeMounts:
         - mountPath: /data
